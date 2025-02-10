@@ -1,0 +1,86 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fbe8e7;  /* Light pink background */
+    color: #6c2a8e;  /* Deep purple color for text */
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;  /* Set font size to 20px */
+}
+
+/* Valentine's GIF Styling */
+.gif-container {
+    margin-bottom: 30px;  /* Space between gif and heading */
+    display: inline-block; /* Ensures the image stays centered */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slight background color for the container */
+    border-radius: 15px; /* Rounded corners for container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.valentine-gif {
+    max-width: 100%;  /* Make sure GIF is responsive */
+    max-height: 300px;  /* Limit the height of the GIF */
+    border-radius: 10px;  /* Rounded corners for the image */
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 2.5rem;
+    color: #6c2a8e;  /* Deep purple */
+    margin-bottom: 30px;
+}
+
+/* Container for buttons */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Button Styling */
+button {
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out, width 0.1s, height 0.1s;  /* Button animation */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Yes Button Styles */
+.yes-btn {
+    background-color: #ff77a9;  /* Soft pink */
+    color: white;
+}
+
+.yes-btn:hover {
+    background-color: #ff4679;  /* Darker pink */
+}
+
+/* No Button Styles */
+.no-btn {
+    background-color: #ffceee;  /* Light blush */
+    color: #6c2a8e;  /* Purple text */
+}
+
+.no-btn:hover {
+    background-color: #ff9baf;  /* A slightly darker pink for hover */
+}
+
+button:focus {
+    outline: none;  /* Remove outline when button is focused */
+}
